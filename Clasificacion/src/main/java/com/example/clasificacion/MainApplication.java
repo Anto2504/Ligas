@@ -1,4 +1,4 @@
-package com.example.t3_listas;
+package com.example.clasificacion;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -13,8 +13,8 @@ public class MainApplication extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(MainApplication.class.getResource("main-view.fxml"));
         Parent root = fxmlLoader.load();
-        Scene scene = new Scene(root, 800,600);
-        stage.setTitle("Hello!");
+        Scene scene = new Scene(root);
+        stage.setTitle("Antonio Aromy Trujillo Pardo");
         stage.setScene(scene);
         stage.show();
     }
